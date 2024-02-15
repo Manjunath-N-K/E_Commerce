@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "CI= react-scripts build",
+    "build": "CI= NODE_OPTIONS='--openssl-legacy-provider' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "netlify": "netlify dev",
